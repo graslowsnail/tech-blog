@@ -9,7 +9,7 @@ const sequelize = process.env.JAWSDB_URL
       dialectOptions: {
         socketPath: "/tmp/mysql.sock",
       },
-      host: "https://the-tech-bloggg.herokuapp.com/",
+      host: "the-tech-bloggg.herokuapp.com",
       dialect: "mysql",
       port: 3306,
     });
