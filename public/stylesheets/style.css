@@ -8,7 +8,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: rgb(0, 90, 128);
+  color: rgb(111, 24, 0);
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #108d2d;
   border: 0;
   padding: 1%;
   color: white;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #8ad69c;
 }
 
 .post-list {
@@ -45,7 +45,7 @@ button:hover {
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(7, 7, 7);
 }
 
 textarea:focus, input:focus {
@@ -154,7 +154,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: olive(83, 95, 75);
 }
 
 .comment .meta {
@@ -172,7 +172,7 @@ main {
 }
 
 footer {
-  background-color: #6c7d0f;
+  background-color: olive;
   border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
